@@ -24,6 +24,10 @@
         {
             "id": "2",
             "name": "Used Radio"
+        },
+        {
+            "id": "3",
+            "name": "moneyCounter"
         }
     ],
     "backgrounds": [
@@ -33,7 +37,7 @@
             "width": 20,
             "height": 18,
             "filename": "cave.png",
-            "_v": 1556124457668
+            "_v": 1556133176720
         },
         {
             "id": "b340b9a2-2865-4e05-91c0-148846a693c8",
@@ -41,7 +45,7 @@
             "width": 20,
             "height": 18,
             "filename": "house.png",
-            "_v": 1556124457668
+            "_v": 1556133176720
         },
         {
             "id": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
@@ -49,7 +53,7 @@
             "width": 20,
             "height": 18,
             "filename": "logo.png",
-            "_v": 1556125255802
+            "_v": 1556133176720
         },
         {
             "id": "1b7fa267-d716-40f0-b0d0-f4f966610e07",
@@ -57,7 +61,7 @@
             "width": 32,
             "height": 32,
             "filename": "outside.png",
-            "_v": 1556124457668
+            "_v": 1556133176720
         },
         {
             "id": "40fda058-df90-4205-a239-fe77bce4fa79",
@@ -65,7 +69,7 @@
             "width": 32,
             "height": 32,
             "filename": "stars.png",
-            "_v": 1556125716284
+            "_v": 1556133176720
         },
         {
             "id": "f047ff0e-58ad-49fc-bd2b-ec84fc1f7ab3",
@@ -73,7 +77,7 @@
             "width": 20,
             "height": 18,
             "filename": "titlescreen.png",
-            "_v": 1556124457668
+            "_v": 1556133176720
         },
         {
             "id": "f3102db4-2273-411d-b33f-4d6f65959c60",
@@ -81,7 +85,7 @@
             "width": 32,
             "height": 32,
             "filename": "underground.png",
-            "_v": 1556125389342
+            "_v": 1556133176720
         }
     ],
     "spriteSheets": [
@@ -91,7 +95,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "cat.png",
-            "_v": 1556124457716
+            "_v": 1556133176771
         },
         {
             "id": "17219846-cda9-4e84-bdfa-c3ff105d42cc",
@@ -99,7 +103,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "dog.png",
-            "_v": 1556124457716
+            "_v": 1556133176771
         },
         {
             "id": "ede130e6-013a-42d1-a786-1aed3fd3cf32",
@@ -107,7 +111,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "duck.png",
-            "_v": 1556124457716
+            "_v": 1556133176771
         },
         {
             "id": "09ad70c6-3ce5-4b97-9e96-466221418a45",
@@ -115,7 +119,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "ice.png",
-            "_v": 1556124457717
+            "_v": 1556133176771
         },
         {
             "id": "dfa75239-299d-41fe-a6cd-9e9438da1938",
@@ -123,7 +127,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc001.png",
-            "_v": 1556124457717
+            "_v": 1556133176771
         },
         {
             "id": "40dcd163-9f72-4861-8131-b01eb9baa000",
@@ -131,7 +135,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc002.png",
-            "_v": 1556124457718
+            "_v": 1556133176771
         },
         {
             "id": "52ad34df-f245-4b2a-b94c-a82af1002871",
@@ -139,7 +143,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "npc003.png",
-            "_v": 1556124457717
+            "_v": 1556133176771
         },
         {
             "id": "ac1e8ef4-ffe6-47cd-b16f-9af5da77ec26",
@@ -147,7 +151,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "player.png",
-            "_v": 1556124457717
+            "_v": 1556133176771
         },
         {
             "id": "a0442b6a-634f-44da-9962-77938e3ed839",
@@ -155,7 +159,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "radio.png",
-            "_v": 1556124457718
+            "_v": 1556133176771
         },
         {
             "id": "3939e8d2-3987-4a22-953e-f1d82134eccf",
@@ -163,7 +167,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "rock.png",
-            "_v": 1556124457718
+            "_v": 1556133176771
         },
         {
             "id": "e20ce140-53a5-4b1b-9964-138ba0c86925",
@@ -171,7 +175,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "sage.png",
-            "_v": 1556124457718
+            "_v": 1556133176771
         },
         {
             "id": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
@@ -179,7 +183,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "signpost.png",
-            "_v": 1556124457718
+            "_v": 1556133176771
         }
     ],
     "scenes": [
@@ -251,13 +255,6 @@
                     "direction": "down",
                     "script": [
                         {
-                            "id": "137799a4-c0db-46dd-91c9-36c0e5386e3d",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": "Have you seen my\ncat anywhere?"
-                            }
-                        },
-                        {
                             "id": "ef31c786-4d05-4ec4-9828-0b20bea82a50",
                             "command": "EVENT_IF_TRUE",
                             "args": {
@@ -272,11 +269,64 @@
                                     }
                                 },
                                 {
+                                    "id": "49582d61-2fe4-4d23-a891-d6617bd7fed6",
+                                    "command": "EVENT_ACTOR_EMOTE",
+                                    "args": {
+                                        "actorId": "c73c195d-5cc8-4417-bdb0-b0c55c4b6188",
+                                        "emoteId": "2"
+                                    }
+                                },
+                                {
+                                    "id": "c64f03d2-79c8-4df8-a22f-f267cf2e9235",
+                                    "command": "EVENT_ACTOR_MOVE_TO",
+                                    "args": {
+                                        "actorId": "c73c195d-5cc8-4417-bdb0-b0c55c4b6188",
+                                        "x": 4,
+                                        "y": 7
+                                    }
+                                },
+                                {
+                                    "id": "5eee6de0-7f5c-417f-8f05-59f78363799b",
+                                    "command": "EVENT_ACTOR_EMOTE",
+                                    "args": {
+                                        "actorId": "c73c195d-5cc8-4417-bdb0-b0c55c4b6188",
+                                        "emoteId": "2"
+                                    }
+                                },
+                                {
+                                    "id": "1f6b7e75-a050-4507-9522-34a2ebf5534e",
+                                    "command": "EVENT_TEXT",
+                                    "args": {
+                                        "text": "I found her, yay!\nThanks a lot."
+                                    }
+                                },
+                                {
+                                    "id": "0a67f180-4df7-4d72-9321-88e0a1732482",
+                                    "command": "EVENT_TEXT",
+                                    "args": {
+                                        "text": "You deserve a\nreward."
+                                    }
+                                },
+                                {
+                                    "id": "c4ecbb56-97b4-4b83-9aed-07efd84587f4",
+                                    "command": "EVENT_INC_VALUE",
+                                    "args": {
+                                        "variable": "3"
+                                    }
+                                },
+                                {
                                     "id": "f837cf44-2f7e-43f6-8d06-9e93990fe1b6",
                                     "command": "EVENT_END"
                                 }
                             ],
                             "false": [
+                                {
+                                    "id": "137799a4-c0db-46dd-91c9-36c0e5386e3d",
+                                    "command": "EVENT_TEXT",
+                                    "args": {
+                                        "text": "Have you seen my\ncat anywhere?"
+                                    }
+                                },
                                 {
                                     "id": "92272912-94e3-4d2c-aa6f-c798f4392684",
                                     "command": "EVENT_END"
@@ -287,7 +337,8 @@
                             "id": "f49f1e60-9513-4486-9d3b-6f86d1baa938",
                             "command": "EVENT_END"
                         }
-                    ]
+                    ],
+                    "name": "catgirl"
                 },
                 {
                     "id": "076a0612-024a-426a-85fc-3e1054b9f74e",
@@ -1735,7 +1786,7 @@
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
-            "_v": 1556124457720
+            "_v": 1556133176773
         }
     ]
 }
