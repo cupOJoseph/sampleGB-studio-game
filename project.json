@@ -6,7 +6,7 @@
         "startX": 0,
         "startY": 0,
         "startDirection": "right",
-        "zoom": 50,
+        "zoom": 200,
         "startSceneId": "382961a1-e615-4b92-92a7-f1a791b50b7a",
         "playerSpriteSheetId": "ac1e8ef4-ffe6-47cd-b16f-9af5da77ec26"
     },
@@ -33,7 +33,7 @@
             "width": 20,
             "height": 18,
             "filename": "cave.png",
-            "_v": 1556116136648
+            "_v": 1556124457668
         },
         {
             "id": "b340b9a2-2865-4e05-91c0-148846a693c8",
@@ -41,7 +41,7 @@
             "width": 20,
             "height": 18,
             "filename": "house.png",
-            "_v": 1556116136649
+            "_v": 1556124457668
         },
         {
             "id": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
@@ -49,7 +49,7 @@
             "width": 20,
             "height": 18,
             "filename": "logo.png",
-            "_v": 1556116136649
+            "_v": 1556125255802
         },
         {
             "id": "1b7fa267-d716-40f0-b0d0-f4f966610e07",
@@ -57,7 +57,7 @@
             "width": 32,
             "height": 32,
             "filename": "outside.png",
-            "_v": 1556116136649
+            "_v": 1556124457668
         },
         {
             "id": "40fda058-df90-4205-a239-fe77bce4fa79",
@@ -65,7 +65,7 @@
             "width": 32,
             "height": 32,
             "filename": "stars.png",
-            "_v": 1556116136649
+            "_v": 1556125716284
         },
         {
             "id": "f047ff0e-58ad-49fc-bd2b-ec84fc1f7ab3",
@@ -73,7 +73,7 @@
             "width": 20,
             "height": 18,
             "filename": "titlescreen.png",
-            "_v": 1556116136649
+            "_v": 1556124457668
         },
         {
             "id": "f3102db4-2273-411d-b33f-4d6f65959c60",
@@ -81,7 +81,7 @@
             "width": 32,
             "height": 32,
             "filename": "underground.png",
-            "_v": 1556116136649
+            "_v": 1556125389342
         }
     ],
     "spriteSheets": [
@@ -91,7 +91,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "cat.png",
-            "_v": 1556116136732
+            "_v": 1556124457716
         },
         {
             "id": "17219846-cda9-4e84-bdfa-c3ff105d42cc",
@@ -99,7 +99,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "dog.png",
-            "_v": 1556116136732
+            "_v": 1556124457716
         },
         {
             "id": "ede130e6-013a-42d1-a786-1aed3fd3cf32",
@@ -107,7 +107,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "duck.png",
-            "_v": 1556116136732
+            "_v": 1556124457716
         },
         {
             "id": "09ad70c6-3ce5-4b97-9e96-466221418a45",
@@ -115,7 +115,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "ice.png",
-            "_v": 1556116136732
+            "_v": 1556124457717
         },
         {
             "id": "dfa75239-299d-41fe-a6cd-9e9438da1938",
@@ -123,7 +123,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc001.png",
-            "_v": 1556116136732
+            "_v": 1556124457717
         },
         {
             "id": "40dcd163-9f72-4861-8131-b01eb9baa000",
@@ -131,7 +131,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc002.png",
-            "_v": 1556116136733
+            "_v": 1556124457718
         },
         {
             "id": "52ad34df-f245-4b2a-b94c-a82af1002871",
@@ -139,7 +139,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "npc003.png",
-            "_v": 1556116136732
+            "_v": 1556124457717
         },
         {
             "id": "ac1e8ef4-ffe6-47cd-b16f-9af5da77ec26",
@@ -147,7 +147,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "player.png",
-            "_v": 1556116136732
+            "_v": 1556124457717
         },
         {
             "id": "a0442b6a-634f-44da-9962-77938e3ed839",
@@ -155,7 +155,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "radio.png",
-            "_v": 1556116136732
+            "_v": 1556124457718
         },
         {
             "id": "3939e8d2-3987-4a22-953e-f1d82134eccf",
@@ -163,7 +163,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "rock.png",
-            "_v": 1556116136733
+            "_v": 1556124457718
         },
         {
             "id": "e20ce140-53a5-4b1b-9964-138ba0c86925",
@@ -171,7 +171,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "sage.png",
-            "_v": 1556116136733
+            "_v": 1556124457718
         },
         {
             "id": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
@@ -179,7 +179,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "signpost.png",
-            "_v": 1556116136733
+            "_v": 1556124457718
         }
     ],
     "scenes": [
@@ -1042,7 +1042,34 @@
                     ]
                 }
             ],
-            "triggers": [],
+            "triggers": [
+                {
+                    "id": "33404010-78b7-4b15-8fb5-b389047876e7",
+                    "x": 27,
+                    "y": 15,
+                    "width": 4,
+                    "height": 4,
+                    "trigger": "walk",
+                    "name": "backtoEarth",
+                    "script": [
+                        {
+                            "id": "87785c01-f518-4dd6-aa2d-672c8be99039",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "94c18861-b352-4f49-a64d-52f2e3415077",
+                                "x": 27,
+                                "y": 26,
+                                "direction": "left",
+                                "fadeSpeed": "3"
+                            }
+                        },
+                        {
+                            "id": "82c70384-9512-4586-91e6-ad6b62092062",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                }
+            ],
             "collisions": [
                 0,
                 0,
@@ -1708,7 +1735,7 @@
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
-            "_v": 1556116136738
+            "_v": 1556124457720
         }
     ]
 }
